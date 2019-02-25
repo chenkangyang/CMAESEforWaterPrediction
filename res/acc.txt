@@ -1,0 +1,278 @@
+=================LogisticRegression=================
+1 train_acc: 3.08
+2 train_acc: 99.21
+3 train_acc: 57.22
+4 train_acc: 45.05
+5 train_acc: 0.00
+6 train_acc: 77.02
+average: 46.93
+1 valid_acc: 3.07
+2 valid_acc: 99.13
+3 valid_acc: 58.50
+4 valid_acc: 45.21
+5 valid_acc: 0.00
+6 valid_acc: 78.79
+average: 47.45
+1 test_acc: 5.74
+2 test_acc: 99.51
+3 test_acc: 55.17
+4 test_acc: 48.08
+5 test_acc: 0.00
+6 test_acc: 80.19
+average: 48.11
+=================LinearDiscriminantAnalysis=================
+1 train_acc: 0.00
+2 train_acc: 99.90
+3 train_acc: 38.08
+4 train_acc: 50.62
+5 train_acc: 28.33
+6 train_acc: 44.57
+average: 43.58
+1 valid_acc: 0.00
+2 valid_acc: 99.85
+3 valid_acc: 38.49
+4 valid_acc: 51.42
+5 valid_acc: 26.94
+6 valid_acc: 45.45
+average: 43.69
+1 test_acc: 0.00
+2 test_acc: 99.92
+3 test_acc: 38.58
+4 test_acc: 52.83
+5 test_acc: 29.97
+6 test_acc: 47.32
+average: 44.77
+=================SVC=================
+1 train_acc: 64.64
+2 train_acc: 93.62
+3 train_acc: 89.20
+4 train_acc: 90.07
+5 train_acc: 87.35
+6 train_acc: 95.73
+average: 86.77
+1 valid_acc: 64.34
+2 valid_acc: 93.22
+3 valid_acc: 88.74
+4 valid_acc: 89.77
+5 valid_acc: 78.45
+6 valid_acc: 94.87
+average: 84.90
+1 test_acc: 65.16
+2 test_acc: 93.33
+3 test_acc: 87.61
+4 test_acc: 91.77
+5 test_acc: 87.54
+6 test_acc: 98.14
+average: 87.26
+=================DecisionTreeClassifier=================
+1 train_acc: 100.00
+2 train_acc: 100.00
+3 train_acc: 100.00
+4 train_acc: 100.00
+5 train_acc: 100.00
+6 train_acc: 100.00
+average: 100.00
+1 valid_acc: 98.98
+2 valid_acc: 98.98
+3 valid_acc: 98.52
+4 valid_acc: 98.45
+5 valid_acc: 98.65
+6 valid_acc: 99.07
+average: 98.77
+1 test_acc: 98.98
+2 test_acc: 97.14
+3 test_acc: 97.22
+4 test_acc: 96.71
+5 test_acc: 91.92
+6 test_acc: 98.83
+average: 96.80
+=================ExtraTreeClassifier=================
+1 train_acc: 100.00
+2 train_acc: 100.00
+3 train_acc: 100.00
+4 train_acc: 100.00
+5 train_acc: 100.00
+6 train_acc: 100.00
+average: 100.00
+1 valid_acc: 90.78
+2 valid_acc: 94.69
+3 valid_acc: 92.27
+4 valid_acc: 88.58
+5 valid_acc: 65.32
+6 valid_acc: 86.71
+average: 86.39
+1 test_acc: 89.96
+2 test_acc: 93.41
+3 test_acc: 91.02
+4 test_acc: 86.56
+5 test_acc: 73.06
+6 test_acc: 88.11
+average: 87.02
+=================GaussianNB=================
+1 train_acc: 78.32
+2 train_acc: 90.94
+3 train_acc: 82.30
+4 train_acc: 69.57
+5 train_acc: 60.13
+6 train_acc: 67.70
+average: 74.83
+1 valid_acc: 80.53
+2 valid_acc: 90.47
+3 valid_acc: 81.92
+4 valid_acc: 70.05
+5 valid_acc: 56.23
+6 valid_acc: 71.33
+average: 75.09
+1 test_acc: 79.51
+2 test_acc: 90.81
+3 test_acc: 84.03
+4 test_acc: 71.30
+5 test_acc: 55.22
+6 test_acc: 74.13
+average: 75.83
+
+[ 2019-02-25 20:32:41,766][cascade_classifier.transform] X_groups_test.shape=[(20166, 4)]
+[ 2019-02-25 20:32:41,768][cascade_classifier.transform] group_dims=[4]
+[ 2019-02-25 20:32:41,769][cascade_classifier.transform] X_test.shape=(20166, 4)
+[ 2019-02-25 20:32:41,771][cascade_classifier.transform] [layer=0] look_indexs=[0], X_cur_test.shape=(20166, 4)
+
+=================KNeighborsClassifier=================
+1 train_acc: 84.06
+2 train_acc: 96.51
+3 train_acc: 93.43
+4 train_acc: 94.21
+5 train_acc: 85.89
+6 train_acc: 94.88
+average: 91.50
+1 valid_acc: 77.46
+2 valid_acc: 93.48
+3 valid_acc: 89.31
+4 valid_acc: 88.68
+5 valid_acc: 70.03
+6 valid_acc: 90.44
+average: 84.90
+1 test_acc: 76.84
+2 test_acc: 93.15
+3 test_acc: 88.75
+4 test_acc: 89.58
+5 test_acc: 81.82
+6 test_acc: 93.94
+average: 87.35
+=================RandomForestClassifier=================
+1 train_acc: 99.66
+2 train_acc: 99.97
+3 train_acc: 99.94
+4 train_acc: 99.85
+5 train_acc: 99.66
+6 train_acc: 99.92
+average: 99.84
+1 valid_acc: 99.18
+2 valid_acc: 99.51
+3 valid_acc: 99.55
+4 valid_acc: 99.27
+5 valid_acc: 98.65
+6 valid_acc: 99.30
+average: 99.24
+1 test_acc: 99.39
+2 test_acc: 97.55
+3 test_acc: 98.01
+4 test_acc: 96.98
+5 test_acc: 93.27
+6 test_acc: 98.83
+average: 97.34
+=================ExtraTreesClassifier=================
+1 train_acc: 100.00
+2 train_acc: 100.00
+3 train_acc: 100.00
+4 train_acc: 100.00
+5 train_acc: 100.00
+6 train_acc: 100.00
+average: 100.00
+1 valid_acc: 98.36
+2 valid_acc: 98.64
+3 valid_acc: 97.56
+4 valid_acc: 96.35
+5 valid_acc: 87.88
+6 valid_acc: 96.27
+average: 95.84
+1 test_acc: 98.36
+2 test_acc: 97.21
+3 test_acc: 95.28
+4 test_acc: 94.97
+5 test_acc: 91.58
+6 test_acc: 98.37
+average: 95.96
+
+[ 2019-02-25 20:32:42,244][cascade_classifier.transform] [layer=1] look_indexs=[0], X_cur_test.shape=(20166, 52)
+[ 2019-02-25 20:32:42,714][cascade_classifier.transform] X_groups_test.shape=[(6723, 4)]
+[ 2019-02-25 20:32:42,715][cascade_classifier.transform] group_dims=[4]
+[ 2019-02-25 20:32:42,716][cascade_classifier.transform] X_test.shape=(6723, 4)
+[ 2019-02-25 20:32:42,717][cascade_classifier.transform] [layer=0] look_indexs=[0], X_cur_test.shape=(6723, 4)
+[ 2019-02-25 20:32:42,875][cascade_classifier.transform] [layer=1] look_indexs=[0], X_cur_test.shape=(6723, 52)
+[ 2019-02-25 20:32:43,047][cascade_classifier.transform] X_groups_test.shape=[(6723, 4)]
+[ 2019-02-25 20:32:43,048][cascade_classifier.transform] group_dims=[4]
+[ 2019-02-25 20:32:43,049][cascade_classifier.transform] X_test.shape=(6723, 4)
+[ 2019-02-25 20:32:43,050][cascade_classifier.transform] [layer=0] look_indexs=[0], X_cur_test.shape=(6723, 4)
+[ 2019-02-25 20:32:43,208][cascade_classifier.transform] [layer=1] look_indexs=[0], X_cur_test.shape=(6723, 52)
+
+=================GCForest=================
+1 train_acc: 99.52
+2 train_acc: 99.90
+3 train_acc: 99.89
+4 train_acc: 100.00
+5 train_acc: 99.66
+6 train_acc: 99.77
+average: 99.79
+1 valid_acc: 99.39
+2 valid_acc: 99.51
+3 valid_acc: 99.55
+4 valid_acc: 99.27
+5 valid_acc: 99.33
+6 valid_acc: 99.07
+average: 99.35
+1 test_acc: 99.39
+2 test_acc: 97.59
+3 test_acc: 97.95
+4 test_acc: 96.98
+5 test_acc: 93.27
+6 test_acc: 99.07
+average: 97.37
+
+[ 2019-02-25 20:32:48,946][cascade_classifier.transform] X_groups_test.shape=[(20166, 4)]
+[ 2019-02-25 20:32:48,947][cascade_classifier.transform] group_dims=[4]
+[ 2019-02-25 20:32:48,948][cascade_classifier.transform] X_test.shape=(20166, 4)
+[ 2019-02-25 20:32:48,949][cascade_classifier.transform] [layer=0] look_indexs=[0], X_cur_test.shape=(20166, 4)
+[ 2019-02-25 20:32:49,357][cascade_classifier.transform] [layer=1] look_indexs=[0], X_cur_test.shape=(20166, 52)
+[ 2019-02-25 20:32:49,813][cascade_classifier.transform] X_groups_test.shape=[(6723, 4)]
+[ 2019-02-25 20:32:49,814][cascade_classifier.transform] group_dims=[4]
+[ 2019-02-25 20:32:49,815][cascade_classifier.transform] X_test.shape=(6723, 4)
+[ 2019-02-25 20:32:49,816][cascade_classifier.transform] [layer=0] look_indexs=[0], X_cur_test.shape=(6723, 4)
+[ 2019-02-25 20:32:49,977][cascade_classifier.transform] [layer=1] look_indexs=[0], X_cur_test.shape=(6723, 52)
+[ 2019-02-25 20:32:50,151][cascade_classifier.transform] X_groups_test.shape=[(6723, 4)]
+[ 2019-02-25 20:32:50,152][cascade_classifier.transform] group_dims=[4]
+[ 2019-02-25 20:32:50,153][cascade_classifier.transform] X_test.shape=(6723, 4)
+[ 2019-02-25 20:32:50,154][cascade_classifier.transform] [layer=0] look_indexs=[0], X_cur_test.shape=(6723, 4)
+[ 2019-02-25 20:32:50,309][cascade_classifier.transform] [layer=1] look_indexs=[0], X_cur_test.shape=(6723, 52)
+
+=================CMAES=================
+1 train_acc: 99.66
+2 train_acc: 99.99
+3 train_acc: 99.96
+4 train_acc: 100.00
+5 train_acc: 99.89
+6 train_acc: 100.00
+average: 99.92
+1 valid_acc: 99.39
+2 valid_acc: 99.51
+3 valid_acc: 99.55
+4 valid_acc: 99.27
+5 valid_acc: 99.33
+6 valid_acc: 99.07
+average: 99.35
+1 test_acc: 99.39
+2 test_acc: 97.59
+3 test_acc: 97.95
+4 test_acc: 96.98
+5 test_acc: 93.27
+6 test_acc: 99.07
+average: 97.37
